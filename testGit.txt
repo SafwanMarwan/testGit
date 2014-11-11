@@ -1,1 +1,22 @@
 Test file
+The authenticity of host 'github.com (192.30.252.131)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.252.131' (RSA) to the list of known hosts.
+From github.com:SafwanMarwan/testGit
+ * branch            master     -> FETCH_HEAD
+fadhil1@testgit:~/workspace (master) $ git pull origin master
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 0), reused 4 (delta 0)
+Unpacking objects: 100% (4/4), done.
+From github.com:SafwanMarwan/testGit
+ * branch            master     -> FETCH_HEAD
+   58884ac..01dc8b3  master     -> origin/master
+Updating 58884ac..01dc8b3
+Fast-forward
+ .gitignore  | 1 +
+ testGit.txt | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 testGit.txt
